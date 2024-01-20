@@ -4,14 +4,13 @@
     margin:0;
     box-sizing: boarder-box;
 }
-body
-{
-    min-height: 100 vh;
-    display:flex;
-    flex-direction: column;
-    /*generic project styles*/
-    color: #3a3a3a;
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
 }
 /*header*/
 header 
@@ -19,12 +18,12 @@ header
     background-color: lightcoral;
 }
 /*main*/
-main 
-{
-    background-color: lightblue;
-    flex: 1 0 auto;
-    /*main element to fill space*/
-}
+
+main {
+        background-color: lightblue;
+        /* Make main element take up any surplus space to push footer down */
+        flex: 1 0 auto;
+    }
 /*footer*/
 footer
 {
