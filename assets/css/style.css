@@ -66,6 +66,14 @@ list-style-type: none;
     .active {
         border-bottom: 1px solid #3a3a3a
     }
+    /*Nav bar toggles*/
+    nav {position:absolute;
+    background-color: #ffffff;
+width:100%;
+left:0;
+padding:1rem;
+box-shadow: 0 2px 2px #3a3a3a;
+display:none;}
 /*footer*/
 footer
 {
