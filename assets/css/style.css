@@ -62,7 +62,7 @@ h1 {
    }
 
    .active {
-       border-bottom: 1px solid #3a3a3a
+       border-bottom: 1px solid #3a3a3a;
    }
 
    /*Navbar styles with dropdown toggles*/
@@ -102,4 +102,20 @@ main {
 footer
 {
     background-color: orange;
+}
+
+/* Medit querie for tabletes and larger 768px and up*/
+@media screen and (min-width: 768px) {
+    
+    /*Header*/
+    nav {
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: right 1rem;
+    }
+    #menu {display: flex;}
+    #menu >li {padding-left:1rem;}
+    .nav-toggle-label {display: none}
 }
