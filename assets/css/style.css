@@ -9,6 +9,7 @@
     box-sizing: boarder-box;
 }
 
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -17,13 +18,15 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
-h1 , h2 , h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
-
 
 
 /*header*/
@@ -117,6 +120,54 @@ main {
     color:#ffffff;
 }
 
+
+/*reasons section*/
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/*reasons image*/
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    /*makes it a circle*/
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 /*footer*/
 #social-networks {
     text-align:center;
@@ -157,50 +208,15 @@ main {
 main
 /*push main content down to accodate larger header*/
 {margin-top:79px}
-/*reasons image*/
-
-#circle-cover-bg {
-    background: url("../images/reasons-image.webp") no-repeat top center/cover;
-    height: 90vw;
-    width: 90vw;
-    /*makes it a circle*/
-    border-radius: 50%;
-    margin-bottom: 20px;
-    max-width: 300px;
-    max-height: 300px;
-}
 
 
-/*reasons section*/
 
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
 
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
 
-#benefits-physical>div,
-#benefits-mental>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
 
-#benefits p {
-    padding: 0 20px;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
 /*hero*/
-#cover-text{ 
-    width:300px;
+#cover-text {
+    width: 300px;
     right: 50px;
 }
 
