@@ -220,6 +220,25 @@ main
     right: 50px;
 }
 
+/*reasons section*/
+#benefits-physical, 
+#benifits-mental
+ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#benefits-physical > div,
+#benifits-mental > div
+{
+    width: 75%;
+}
+
+#benefits-mental>div {
+    text-align: end;
+    align-self: flex-end;
+}
 
 /*large divices laptop and larger (992px and up)*/
 @media screen and (min-width:992px) {
@@ -228,3 +247,36 @@ main
     }
 }
 }
+
+/* Medit querie for pc and larger 1200px and up*/
+@media screen and (min-width: 1200px) {
+
+/*reasons section*/
+#benefits{
+    display: flex;
+    flex-direction: row;
+}
+
+#benefits > div {
+    flex :1;
+
+}
+#benefits-image{
+    order:0
+}
+
+#benefits-mental{
+    order:1;
+}
+}
+
+   
+    #benifits-mental>div {
+       align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        
+        align-self: flex-end;
+    }
+
